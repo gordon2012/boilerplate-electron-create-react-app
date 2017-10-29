@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-electron-create-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "react-start": "set BROWSER=none&&react-scripts start",
+    "electron-start": "node src/electron-wait-react",
+    "start": "nf start -p 3000"
+  },
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "foreman": "^2.0.0"
+  },
+  "main": "src/electron-starter.js",
+  "homepage": "./"
+}
